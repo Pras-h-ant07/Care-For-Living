@@ -1,0 +1,228 @@
+
+<!-- //////////////////////////////////subscription page//////////////////////////////////////////// -->
+
+<br>
+<br>
+
+<div class="card" style="width: 100%;">
+  
+  <div class="card-body">
+    <br>
+    <h5 class="card-title" id="discount">Offers</h5>
+<br>
+
+<div class="row row-cols-1 row-cols-md-4 g-4">
+  <div class="col">
+    <div class="card h-100" id="price">
+      
+      <div class="card-body">
+        <h5 class="card-title" id="icon"><i class="fas fa-dollar-sign"></i></h5>
+        <h5 class="card-title" id="plan">Trial Plan</h5>
+        <br>
+        <p class="card-text" id="lines"><i class="fas fa-check" id="green"></i> For One Week Only</p>
+        <p class="card-text" id="lines"><i class="fas fa-check" id="green"></i> Meditation Videos Available</p>
+        <p class="card-text" id="lines"><i class="fas fa-check" id="green"></i> Trainer Available</p>
+        <!-- <br><br><br><br> -->
+        <p class="card-text" id="money">Rs. 0/-</p>
+      </div>
+    </div>
+  </div>
+  <div class="col">
+    <div class="card h-100" id="price">
+      
+      <div class="card-body">
+        <h5 class="card-title" id="icon"><i class="fas fa-dollar-sign"></i></h5>
+        <h5 class="card-title" id="plan">Three Months Plan</h5>
+        <br>
+        <p class="card-text" id="lines"><i class="fas fa-check" id="green"></i> Meditation Videos Available</p>
+        <p class="card-text" id="lines"><i class="fas fa-check" id="green"></i> Trainer Available</p>
+        <p class="card-text" id="lines"><i class="fas fa-check" id="green"></i> Allowed to Call the Trainer</p>
+        <!-- <br><br><br> -->
+        <p class="card-text" id="money">Rs. 299/-</p>
+      </div>
+    </div>
+  </div>
+  <div class="col">
+    <div class="card h-100" id="price">
+      
+      <div class="card-body">
+        <h5 class="card-title" id="icon"><i class="fas fa-dollar-sign"></i></h5>
+        <h5 class="card-title" id="plan">Six Months Plan</h5>
+        <br>
+        <p class="card-text" id="lines"><i class="fas fa-check" id="green"></i> Meditation Videos Available</p>
+        <p class="card-text" id="lines"><i class="fas fa-check" id="green"></i> Trainer Available</p>
+        <p class="card-text" id="lines"><i class="fas fa-check" id="green"></i> Allowed to Call the Trainer</p>
+        <p class="card-text" id="lines"><i class="fas fa-check" id="green"></i> Trainer will be present anytime</p>
+        <!-- <br><br> -->
+        <p class="card-text" id="money">Rs. 999/-</p>
+      </div>
+    </div>
+  </div>
+  <div class="col">
+    <div class="card h-100" id="price">
+      
+      <div class="card-body">
+        <h5 class="card-title" id="icon"><i class="fas fa-dollar-sign"></i></h5>
+        <h5 class="card-title" id="plan">One Year Plan</h5>
+        <br>
+        <p class="card-text" id="lines"><i class="fas fa-check" id="green"></i> Meditation Videos Available</p>
+        <p class="card-text" id="lines"><i class="fas fa-check" id="green"></i> Trainer Available</p>
+        <p class="card-text" id="lines"><i class="fas fa-check" id="green"></i> Allowed to Call the Trainer</p>
+        <p class="card-text" id="lines"><i class="fas fa-check" id="green"></i> Trainer will be present anytime</p>
+        <p class="card-text" id="lines"><i class="fas fa-check" id="green"></i> Get Personal Trainer by Choice</p>
+        <p class="card-text" id="money">Rs. 1399/-</p>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+  </div>
+  <br>
+</div>
+
+
+<br>
+
+
+
+
+
+<div class="card mx-auto" style="width: 40rem;">
+    
+    <div class="card-body">
+      <br>
+      <h5 class="card-title">Join Us Now</h5>
+          <p class="card-text"></p>
+      <br>
+        <form class="row g-3">
+            <div class="col-md-12">
+              <label for="validationServer01" class="form-label">Full Name</label>
+              <input type="text" class="form-control valid" id="validationServer01" [(ngModel)]="Fullname" name="Fullname" required>
+              <div class="valid-feedback">
+                Looks good!
+              </div>
+            </div>
+            
+            <div class="col-md-5">
+                <label for="validationServerUsername" class="form-label">Username</label>
+                <div class="input-group has-validation">
+                  
+                  <input type="text" class="form-control valid" id="validationServerUsername" [(ngModel)]="Username" name="Username" aria-describedby="inputGroupPrepend3 validationServerUsernameFeedback" required>
+                  <div id="validationServerUsernameFeedback" class="invalid-feedback">
+                    Please choose a username.
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-md-7">
+                <label for="validationServerUsername" class="form-label">Email</label>
+                <div class="input-group has-validation">
+                  
+                  <input type="email" class="form-control valid" id="validationServerUsername" [(ngModel)]="Email" name="Email" aria-describedby="inputGroupPrepend3 validationServerUsernameFeedback" required>
+                  <div id="validationServerUsernameFeedback" class="invalid-feedback">
+                    Please choose an email.
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-12">
+                <label for="validationServer04" class="form-label">Phone Number</label>
+                <input type="number" class="form-control valid" id="validationServer04" [(ngModel)]="Phone" name="Phone" aria-describedby="validationServer04Feedback" required>
+                <div id="validationServer04Feedback" class="invalid-feedback">
+                  Please provide a valid phone number.
+                </div>
+              </div>
+            <div class="col-md-12">
+              <label for="validationServer03" class="form-label">Address</label>
+              <input type="text" class="form-control valid" id="validationServer03" [(ngModel)]="Address" name="Address" aria-describedby="validationServer03Feedback" required>
+              <div id="validationServer03Feedback" class="invalid-feedback">
+                Please provide a valid address.
+              </div>
+            </div>
+            <div class="col-md-12">
+              <label for="validationServer04" class="form-label">Choose Your Plan</label>&nbsp; &nbsp; &nbsp; 
+              <!-- <select class="form-select valid" id="validationServer04"  aria-describedby="validationServer04Feedback" required>
+                <option selected disabled value="">Choose...</option>
+                <option>...</option>
+              </select> -->
+              <div class="form-check form-check-inline">
+                <input class="form-check-input" type="radio"  id="inlineRadio1" [(ngModel)]="Plan" name="Plan" value="Rs. 0/-">
+                <label class="form-check-label" for="inlineRadio1">Rs. 0/-</label>
+              </div>
+              <div class="form-check form-check-inline">
+                <input class="form-check-input" type="radio"  id="inlineRadio2" [(ngModel)]="Plan" name="Plan" value="Rs. 299/-">
+                <label class="form-check-label" for="inlineRadio2">Rs. 299/-</label>
+              </div>
+              <div class="form-check form-check-inline">
+                <input class="form-check-input" type="radio"  id="inlineRadio3" [(ngModel)]="Plan" name="Plan" value="Rs. 999/-">
+                <label class="form-check-label" for="inlineRadio3">Rs. 999/-</label>
+              </div>
+              <div class="form-check form-check-inline">
+                <input class="form-check-input" type="radio"  id="inlineRadio4" [(ngModel)]="Plan" name="Plan" value="Rs. 1399/-">
+                <label class="form-check-label" for="inlineRadio4">Rs. 1399/-</label>
+              </div>
+              <div id="validationServer04Feedback" class="invalid-feedback">
+                Please select a valid subscription.
+              </div>
+            </div>
+            
+            <div class="col-md-12">
+              <label for="validationServer05" class="form-label">Session Timings</label>
+              <select class="form-select valid" id="validationServer05" [(ngModel)]="Time" name="Time" aria-describedby="validationServer05Feedback" required>
+                <option selected disabled value="">Select Time...</option>
+                <option  name="Time">06:00am</option>
+                <option  name="Time">07:00am</option>
+                <option  name="Time">08:00am</option>
+                <option  name="Time">06:00pm</option>
+                <option  name="Time">07:00pm</option>
+              </select>
+              <div id="validationServer05Feedback" class="invalid-feedback">
+                Please provide a valid timing.
+              </div>
+            </div>
+            
+            <div class="col-12 offset-5">
+              <br>
+              <button class="btn btn-primary" type="submit" data-bs-toggle="modal" data-bs-target="#exampleModal" (click)="addData()">Join Now</button>
+
+              <div class="modal " id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                <div class="modal-dialog modal-dialog-centered" >
+                  <div class="modal-content">
+                    <div class="modal-header ">
+                      <h5 class="modal-title" id="exampleModalLabel">Thank You!!</h5>
+                      <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body"><i class="far fa-grin-beam"></i><br>
+                      Thank You for choosing the suitable Plan.<br>
+                      Our Meditation Sessions are waiting for you.
+                    </div>
+                    <div class="modal-footer">
+                      
+                      <button type="button" class="btn btn-primary" [routerLink]="['/thankyou']" data-bs-dismiss="modal">Please Continue</button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              
+
+
+            </div>
+            <br>
+          </form>
+
+          
+        
+
+    </div>
+  </div>
+
+  <br>
+
+
+  <!-- [(ngModel)]="Firstname" name="Firstname"
+  [(ngModel)]="Lastname" name="Lastname"
+  [(ngModel)]="Username" name="Username"
+  [(ngModel)]="Email" name="Email"
+  [(ngModel)]="Address" name="Address"
+  [(ngModel)]="Subscription" name="Subscription"
+  [(ngModel)]="Timing" name="Timing" -->
